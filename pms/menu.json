@@ -1,0 +1,41 @@
+[
+        {
+            "groupId": "breakfast",
+            "name": "breakfast",
+            "displayName": "Breakfast",
+            "displayOffset": -1,
+            "description": "Please choose 1 dish and 1 beverage included",
+            "availTime": "12:00:00",
+            "unavailTime": "01:00:00",
+            "status": "ENABLED",
+            "includedGroupId": null,
+            "includedGroup": false,
+            "id": "breakfast"
+        },
+        {
+            "groupId": "beverage",
+            "name": "baverage",
+            "displayName": "Beverage",
+            "displayOffset": -1,
+            "description": "For beer, coke and wine please take them from the fridge at the centre area",
+            "availTime": "00:00:00",
+            "unavailTime": "16:00:00",
+            "status": "ENABLED",
+            "includedGroupId": null,
+            "includedGroup": false,
+            "id": "beverage"
+        },
+        {
+            "groupId": "food",
+            "name": "food",
+            "displayName": "Food",
+            "displayOffset": -1,
+            "description": "The main dishes will be prepared with white rice and vegetables",
+            "availTime": "00:00:00",
+            "unavailTime": "12:00:00",
+            "status": "ENABLED",
+            "includedGroupId": null,
+            "includedGroup": false,
+            "id": "food"
+        }
+    ]
