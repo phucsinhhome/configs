@@ -12,7 +12,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\n  \"createdTime\": \"2024-01-08T14:00:00\",\n  \"description\": \"Tour Mekong afternoon 08.01.2024\",\n  \"items\": [\n    {\n      \"itemName\": \"Base tour price\",\n      \"quantity\": 1,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional coconut fee\",\n      \"quantity\": 2,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    }\n  ]\n}\n```"
+          "text": "```json\n{\n  \"createdTime\": \"2025-01-08T14:00:00\",\n  \"description\": \"Tour Mekong afternoon 08.01.2025\",\n  \"items\": [\n    {\n      \"itemName\": \"Tour base price\",\n      \"quantity\": 1,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Coconut fee\",\n       \"quantity\": 2,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    }\n  ]\n}\n```"
         }
       ]
     },
@@ -28,7 +28,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\n  \"createdTime\": \"2024-01-09T08:00:00\",\n  \"description\": \"Tour Mekong morning 09.01.2024\",\n  \"items\": [\n    {\n      \"itemName\": \"Base tour price\",\n      \"quantity\": 1,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional adult fee\",\n      \"quantity\": 2,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 100000\n    },\n    {\n      \"itemName\": \"Additional coconut fee\",\n      \"quantity\": 6,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    }\n  ]\n}\n```"
+          "text": "```json\n{\n  \"createdTime\": \"2025-01-09T08:00:00\",\n  \"description\": \"Tour Mekong morning 09.01.2025\",\n  \"items\": [\n    {\n      \"itemName\": \"Tour base price\",\n      \"quantity\": 1,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional adult\",\n      \"quantity\": 2,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 100000\n    },\n     {\n      \"itemName\": \"Coconut fee\",\n      \"quantity\": 6,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    }\n  ]\n}\n```"
         }
       ]
     },
@@ -44,7 +44,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\n  \"createdTime\": \"2024-01-09T08:00:00\",\n  \"description\": \"Tour Mekong morning 09.01.2024\",\n  \"items\": [\n    {\n      \"itemName\": \"Base tour price\",\n      \"quantity\": 1,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional adult fee\",\n      \"quantity\": 2,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 100000\n    },\n     {\n      \"itemName\": \"Additional coconut fee\",\n      \"quantity\": 6,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    },\n    {\n      \"itemName\": \"TukTuk transportation\",\n      \"quantity\": 2,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 120000\n    }\n  ]\n}\n```"
+          "text": "```json\n{\n  \"createdTime\": \"2025-01-09T08:00:00\",\n  \"description\": \"Tour Mekong morning 09.01.2025\",\n  \"items\": [\n    {\n      \"itemName\": \"Tour base price\",\n      \"quantity\": 1,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional adult\",\n      \"quantity\": 2,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 100000\n    },\n     {\n      \"itemName\": \"Coconut fee\",\n      \"quantity\": 6,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    },\n      {\n      \"itemName\": \"Tuktuk transportation\",\n      \"quantity\": 2,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 120000\n    }\n  ]\n}\n```"
         }
       ]
     },
@@ -60,7 +60,47 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\n  \"createdTime\": \"2024-01-09T08:00:00\",\n  \"description\": \"Tour đom đóm morning 09.01.2024\",\n  \"items\": [\n    {\n      \"itemName\": \"Base tour price\",\n      \"quantity\": 1,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional adult fee\",\n      \"quantity\": 2,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 100000\n    },\n     {\n      \"itemName\": \"Additional coconut fee\",\n      \"quantity\": 6,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    },\n    {\n      \"itemName\": \"TukTuk transportation\",\n      \"quantity\": 2,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 120000\n    }\n  ]\n}\n```"
+          "text": "```json\n{\n  \"createdTime\": \"2025-01-09T08:00:00\",\n  \"description\": \"Tour đom đóm morning 09.01.2025\",\n  \"items\": [\n    {\n      \"itemName\": \"Tour base price\",\n      \"quantity\": 1,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional adult\",\n      \"quantity\": 2,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 100000\n    },\n     {\n      \"itemName\": \"Coconut fee\",\n      \"quantity\": 6,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    },\n      {\n      \"itemName\": \"Tuktuk transportation\",\n      \"quantity\": 2,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 120000\n    }\n  ]\n}\n```"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "mekong tour 15h yesterday for 5 adults"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "```json\n{\n  \"createdTime\": \"2025-01-12T15:00:00\",\n  \"description\": \"Tour Mekong afternoon 12.01.2025\",\n  \"items\": [\n    {\n      \"itemName\": \"Tour base price\",\n      \"quantity\": 1,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional adult\",\n      \"quantity\": 1,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 100000\n    },\n     {\n      \"itemName\": \"Coconut fee\",\n      \"quantity\": 5,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    }\n  ]\n}\n```"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "boat trip in the afternoon 2 days ago for 7 adults"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "```json\n{\n  \"createdTime\": \"2025-01-11T14:00:00\",\n  \"description\": \"Tour boat trip afternoon 11.01.2025\",\n  \"items\": [\n    {\n      \"itemName\": \"Tour base price\",\n      \"quantity\": 1,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional adult\",\n      \"quantity\": 3,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 100000\n    },\n     {\n      \"itemName\": \"Coconut fee\",\n      \"quantity\": 7,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    }\n  ]\n}\n```"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "INSERT_INPUT_HERE"
         }
       ]
     }
@@ -69,7 +109,7 @@
     "role": "user",
     "parts": [
       {
-        "text": "As a Tour agency, I need to create the invoice for my supplier about tour organizing. I need to understand the message from my staff to create the invoice for the tour. The tour is calculated as following fomula: base price is 800000 for a maximum group of 4 adults, additional adult is charged 100000, children under 11 is free of charge, however 5 children is charged as one adult, every person join the tour is charged 10000 coconut price as well. Sometimes, the tour includes the tuktuk transportation for 120000 for one way. Each item should have a meaningful name not too short. The time should be in format yyyy-MM-ddTHH:mm:ss. The invoice description should contains world morning or afternoon and the day based on the time for example \"Tour Mekong morning 31.12.2024\". Each item has a service field with value TOUR"
+        "text": "As a Tour agency, I need to create the invoice for my supplier about tour organizing. I need to understand the message from my staff to create the invoice for the tour. The tour is calculated as following fomula: base price is 800000 for a maximum group of 4 adults, additional adult is charged 100000, children under 11 is free of charge, however 5 children is charged as one adult, every person join the tour is charged 10000 coconut price as well. Sometimes, the tour includes the tuktuk transportation for 120000 for one way. Each item should have a meaningful name not too short. The time should be in format yyyy-MM-ddTHH:mm:ss and it'\''s in ICT timezone. The date should be generated based on execution date. The invoice description should contains world morning or afternoon and the day based on the time for example \"Tour Mekong morning 31.12.2024\". Each item has a service field with value TOUR"
       }
     ]
   },
