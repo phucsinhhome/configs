@@ -12,7 +12,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\n  \"createdTime\": \"2025-01-08T14:00:00\",\n  \"description\": \"Tour Mekong afternoon 08.01.2025\",\n  \"items\": [\n    {\n      \"itemName\": \"Tour base price\",\n      \"quantity\": 1,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Coconut fee\",\n       \"quantity\": 2,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    }\n  ]\n}\n```"
+          "text": "```json{\"createdTime\": \"2025-01-08T14:00:00\",\"description\": \"Tour Mekong afternoon 08.01.2025\",\"items\": [  {\"itemName\": \"Tour base price\",\"quantity\": 1,\"service\": \"TOUR\",\"unitPrice\": 800000  },  {\"itemName\": \"Coconut fee\", \"quantity\": 2,\"service\": \"TOUR\",\"unitPrice\": 10000  }]}```"
         }
       ]
     },
@@ -28,7 +28,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\n  \"createdTime\": \"2025-01-09T08:00:00\",\n  \"description\": \"Tour Mekong morning 09.01.2025\",\n  \"items\": [\n    {\n      \"itemName\": \"Tour base price\",\n      \"quantity\": 1,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional adult\",\n      \"quantity\": 2,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 100000\n    },\n     {\n      \"itemName\": \"Coconut fee\",\n      \"quantity\": 6,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    }\n  ]\n}\n```"
+          "text": "```json{\"createdTime\": \"2025-01-09T08:00:00\",\"description\": \"Tour Mekong morning 09.01.2025\",\"items\": [  {\"itemName\": \"Tour base price\",\"quantity\": 1,\"service\": \"TOUR\",\"unitPrice\": 800000  },  {\"itemName\": \"Additional adult\",\"quantity\": 2,\"service\": \"TOUR\",\"unitPrice\": 100000  },   {\"itemName\": \"Coconut fee\",\"quantity\": 6,\"service\": \"TOUR\",\"unitPrice\": 10000  }]}```"
         }
       ]
     },
@@ -44,7 +44,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\n  \"createdTime\": \"2025-01-09T08:00:00\",\n  \"description\": \"Tour Mekong morning 09.01.2025\",\n  \"items\": [\n    {\n      \"itemName\": \"Tour base price\",\n      \"quantity\": 1,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional adult\",\n      \"quantity\": 2,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 100000\n    },\n     {\n      \"itemName\": \"Coconut fee\",\n      \"quantity\": 6,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    },\n      {\n      \"itemName\": \"Tuktuk transportation\",\n      \"quantity\": 2,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 120000\n    }\n  ]\n}\n```"
+          "text": "```json{\"createdTime\": \"2025-01-09T08:00:00\",\"description\": \"Tour Mekong morning 09.01.2025\",\"items\": [  {\"itemName\": \"Tour base price\",\"quantity\": 1, \"service\": \"TOUR\",\"unitPrice\": 800000  },  {\"itemName\": \"Additional adult\",\"quantity\": 2, \"service\": \"TOUR\",\"unitPrice\": 100000  },   {\"itemName\": \"Coconut fee\",\"quantity\": 6, \"service\": \"TOUR\",\"unitPrice\": 10000  },    {\"itemName\": \"Tuktuk transportation\",\"quantity\": 2,\"service\": \"TOUR\",\"unitPrice\": 120000  }]}```"
         }
       ]
     },
@@ -60,7 +60,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\n  \"createdTime\": \"2025-01-09T08:00:00\",\n  \"description\": \"Tour đom đóm morning 09.01.2025\",\n  \"items\": [\n    {\n      \"itemName\": \"Tour base price\",\n      \"quantity\": 1,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional adult\",\n      \"quantity\": 2,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 100000\n    },\n     {\n      \"itemName\": \"Coconut fee\",\n      \"quantity\": 6,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    },\n      {\n      \"itemName\": \"Tuktuk transportation\",\n      \"quantity\": 2,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 120000\n    }\n  ]\n}\n```"
+          "text": "```json{\"createdTime\": \"2025-01-09T08:00:00\",\"description\": \"Tour đom đóm morning 09.01.2025\",\"items\": [  {\"itemName\": \"Tour base price\",\"quantity\": 1,\"service\": \"TOUR\",\"unitPrice\": 800000  },  {\"itemName\": \"Additional adult\",\"quantity\": 2,\"service\": \"TOUR\",\"unitPrice\": 100000  },   {\"itemName\": \"Coconut fee\",\"quantity\": 6,\"service\": \"TOUR\",\"unitPrice\": 10000  },    {\"itemName\": \"Tuktuk transportation\",\"quantity\": 2, \"service\": \"TOUR\",\"unitPrice\": 120000  }]}```"
         }
       ]
     },
@@ -76,7 +76,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\n  \"createdTime\": \"2025-01-12T15:00:00\",\n  \"description\": \"Tour Mekong afternoon 12.01.2025\",\n  \"items\": [\n    {\n      \"itemName\": \"Tour base price\",\n      \"quantity\": 1,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional adult\",\n      \"quantity\": 1,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 100000\n    },\n     {\n      \"itemName\": \"Coconut fee\",\n      \"quantity\": 5,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    }\n  ]\n}\n```"
+          "text": "```json{\"createdTime\": \"2025-01-12T15:00:00\",\"description\": \"Tour Mekong afternoon 12.01.2025\",\"items\": [  {\"itemName\": \"Tour base price\",\"quantity\": 1,\"service\": \"TOUR\",\"unitPrice\": 800000  },  {\"itemName\": \"Additional adult\",\"quantity\": 1,\"service\": \"TOUR\",\"unitPrice\": 100000  },   {\"itemName\": \"Coconut fee\",\"quantity\": 5, \"service\": \"TOUR\",\"unitPrice\": 10000  }]}```"
         }
       ]
     },
@@ -92,7 +92,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\n  \"createdTime\": \"2025-01-11T14:00:00\",\n  \"description\": \"Tour boat trip afternoon 11.01.2025\",\n  \"items\": [\n    {\n      \"itemName\": \"Tour base price\",\n      \"quantity\": 1,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional adult\",\n      \"quantity\": 3,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 100000\n    },\n     {\n      \"itemName\": \"Coconut fee\",\n      \"quantity\": 7,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    }\n  ]\n}\n```"
+          "text": "```json{\"createdTime\": \"2025-01-11T14:00:00\",\"description\": \"Tour boat trip afternoon 11.01.2025\",\"items\": [  {\"itemName\": \"Tour base price\",\"quantity\": 1, \"service\": \"TOUR\",\"unitPrice\": 800000  },  {\"itemName\": \"Additional adult\",\"quantity\": 3,\"service\": \"TOUR\",\"unitPrice\": 100000  },   {\"itemName\": \"Coconut fee\",\"quantity\": 7,\"service\": \"TOUR\",\"unitPrice\": 10000  }]}```"
         }
       ]
     }
