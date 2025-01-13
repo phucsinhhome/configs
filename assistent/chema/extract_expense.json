@@ -4,7 +4,7 @@
       "role": "user",
       "parts": [
         {
-          "text": "I bought 3g sugar with 460k today"
+          "text": "3g sugar with 460k today"
         }
       ]
     },
@@ -12,7 +12,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\"expenses\": [{\"item\": \"Sugar\", \"price\": 460000, \"quantity\": \"3\", \"service\": \"FOOD\", \"unit\": \"g\"}]}\n```"
+          "text": "```json\n{\"itemName\": \"3g sugar\", \"quantity\": 1, \"service\": \"FOOD\", \"unitPrice\": 460000}\n```"
         }
       ]
     },
@@ -28,7 +28,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\"expenses\": [{\"item\": \"Buckets\", \"price\": 460000, \"quantity\": \"5\", \"service\": \"FOOD\", \"unit\": \"count\"}]}\n```"
+          "text": "```json\n{\"itemName\": \"buckets\", \"quantity\": 5, \"service\": \"TOUR\", \"unitPrice\": 92000}\n```"
         }
       ]
     },
@@ -44,7 +44,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\"expenses\": [{\"item\": \"Bottle of mezan 5l\", \"price\": 700000, \"quantity\": \"1\", \"service\": \"FOOD\", \"unit\": \"count\"}]}\n```"
+          "text": "```json\n{\"itemName\": \"Bottle of Mezan 5L\", \"quantity\": 1, \"service\": \"FOOD\", \"unitPrice\": 700000}\n```"
         }
       ]
     },
@@ -60,23 +60,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\"expenses\": [{\"item\": \"Bottles of mezan 5l\", \"price\": 1200000, \"quantity\": \"2\", \"service\": \"FOOD\", \"unit\": \"count\"}]}\n```"
-        }
-      ]
-    },
-    {
-      "role": "user",
-      "parts": [
-        {
-          "text": "2 Mezan 5L 1200k"
-        }
-      ]
-    },
-    {
-      "role": "model",
-      "parts": [
-        {
-          "text": "```json\n{\"expenses\": [{\"item\": \"Mezan 5l\", \"price\": 1200000, \"quantity\": \"2\", \"service\": \"FOOD\", \"unit\": \"count\"}]}\n```"
+          "text": "```json\n{\"itemName\": \"bottles of Mezan 5L\", \"quantity\": 2, \"service\": \"FOOD\", \"unitPrice\": 600000}\n```"
         }
       ]
     },
@@ -92,7 +76,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\"expenses\": [{\"item\": \"Mezan 5l\", \"price\": 1200000, \"quantity\": \"2\", \"service\": \"FOOD\", \"unit\": \"count\"}]}\n```"
+          "text": "```json\n{\"itemName\": \"Mezan 5L\", \"quantity\": 2, \"service\": \"FOOD\", \"unitPrice\": 600000}\n```"
         }
       ]
     },
@@ -108,7 +92,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\"expenses\": [{\"item\": \"Đường cát trắng\", \"price\": 0, \"quantity\": \"15\", \"service\": \"FOOD\", \"unit\": \"kg\"}]}\n```"
+          "text": "```json\n{\"itemName\": \"1đường cát trắng\", \"quantity\": 15, \"service\": \"FOOD\", \"unitPrice\": 0}\n```"
         }
       ]
     },
@@ -124,7 +108,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\"expenses\": [{\"item\": \"Mekong tour\", \"price\": 800000, \"quantity\": \"1\", \"service\": \"TOUR\", \"unit\": \"count\"}]}\n```"
+          "text": "```json\n{\"itemName\": \"mekong tour\", \"quantity\": 1, \"service\": \"TOUR\", \"unitPrice\": 800000}\n```"
         }
       ]
     },
@@ -140,7 +124,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "```json\n{\"expenses\": [{\"item\": \"Family room\", \"price\": 900000, \"quantity\": \"1\", \"service\": \"STAY\", \"unit\": \"count\"}]}\n```"
+          "text": "```json\n{\"itemName\": \"family room\", \"quantity\": 1, \"service\": \"STAY\", \"unitPrice\": 900000}\n```"
         }
       ]
     }
@@ -149,41 +133,30 @@
     "role": "user",
     "parts": [
       {
-        "text": "As a accountant, I need you to analyze the chat message and extract daily expense with following data fields:\nitem name is the name of product\nunit could be kilogram, gram, count, hour\nquantity is an integer number\nprice in VND.\nservice is one of STAY, FOOD or TOUR, this value depends on item name\nThese are some examples\n\"5kg sugar 560k\" means \"item: Sugar, quantity: 5, unit: kg, price: 560000, service: FOOD\"\n\"560 sugar for 5kg\" means \"item: Sugar, quantity: 5, unit: kg, price: 560000, service FOOD\"\n\"sugar 5kg 560\" means \"item: Sugar, quantity: 5, unit: kg, price: 560000, service FOOD\"\n\"sugar 5g 560\" means \"item: Sugar, quantity: 5, unit: g, price: 560000, service FOOD\"\n\"5 buckets 230\" means \"item: Bucket, quantity: 5,  unit: count, price: 230000, service FOOD\"\n\"Can oil 5L 160\" means \"item: Oil 5L, quantity: 1,  unit: count, price: 160000, service FOOD\"\n\"15k bột ngọt\" means \"item: Bột ngọt, quantity: 1,  unit: count, price: 15000, service FOOD\"\n\"15kg đường cát\" means \"item: Đường cát, quantity: 15,  unit: kg, price: 0, service FOOD\"\n\"1 bungalow room 450k\" means \"item: Bungalow room, quantity: 1,  unit: count, price: 450000, service: STAY\"\n\"2 hours bike rental 60k\" means \"item: Bike rental, quantity: 2,  unit: hour, price: 60000, service: STAY\"\n\"mekong tour 800k\" means \"item: Mekong tour, quantity: 1,  unit: count, price: 800000, service: TOUR\"\nPlease try to extract expense in message and format the item name with sentence case"
+        "text": "As a accountant, I need you to analyze the message from my staff and extract expense. Each item has a name of product he bought. Unit price of the item is a VND currentcy number with no decimal number. The unit price is incurred from the total amount ,mentioning in the message, by devide the total amount into quantity. The quantity is also an integer number, it is 1 by default. Each item also be classified into a service which is is one of STAY, FOOD or TOUR, this value depends on item name"
       }
     ]
   },
   "generationConfig": {
     "temperature": 1,
-    "topK": 64,
+    "topK": 40,
     "topP": 0.95,
     "maxOutputTokens": 8192,
     "responseMimeType": "application/json",
     "responseSchema": {
       "type": "object",
       "properties": {
-        "expenses": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "item": {
-                "type": "string"
-              },
-              "unit": {
-                "type": "string"
-              },
-              "price": {
-                "type": "number"
-              },
-              "service": {
-                "type": "string"
-              },
-              "quantity": {
-                "type": "string"
-              }
-            }
-          }
+        "itemName": {
+          "type": "string"
+        },
+        "unitPrice": {
+          "type": "number"
+        },
+        "quantity": {
+          "type": "number"
+        },
+        "service": {
+          "type": "string"
         }
       }
     }
