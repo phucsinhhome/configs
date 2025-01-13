@@ -95,14 +95,6 @@
           "text": "```json\n{\n  \"createdTime\": \"2025-01-11T14:00:00\",\n  \"description\": \"Tour boat trip afternoon 11.01.2025\",\n  \"items\": [\n    {\n      \"itemName\": \"Tour base price\",\n      \"quantity\": 1,\n       \"service\": \"TOUR\",\n      \"unitPrice\": 800000\n    },\n    {\n      \"itemName\": \"Additional adult\",\n      \"quantity\": 3,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 100000\n    },\n     {\n      \"itemName\": \"Coconut fee\",\n      \"quantity\": 7,\n      \"service\": \"TOUR\",\n      \"unitPrice\": 10000\n    }\n  ]\n}\n```"
         }
       ]
-    },
-    {
-      "role": "user",
-      "parts": [
-        {
-          "text": "INSERT_INPUT_HERE"
-        }
-      ]
     }
   ],
   "systemInstruction": {
