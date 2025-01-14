@@ -1,5 +1,19 @@
 {
-    "app": {
-        "showProfile": false
+  "app": {
+    "showProfile": false
+  },
+  "users": [
+    {
+      "id": "1351151927",
+      "firstName": "Minh",
+      "lastName": "Tran",
+      "username": "minhtranes"
+    },
+    {
+      "id": "6456500785",
+      "firstName": "Kha",
+      "lastName": "Tran",
+      "username": ""
     }
+  ]
 }
