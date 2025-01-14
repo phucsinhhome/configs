@@ -1,6 +1,6 @@
 {
   "app": {
-    "showProfile": false
+    "showProfile": true
   },
   "users": [
     {
