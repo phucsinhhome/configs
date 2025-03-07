@@ -30,7 +30,7 @@
             "name": "food",
             "displayName": "Food",
             "displayOffset": -1,
-            "description": "The main dishes will be prepared with white rice and vegetables",
+            "description": "The dishes will be prepared with rice and vegetables",
             "availTime": "00:00:00",
             "unavailTime": "12:00:00",
             "status": "ENABLED",
