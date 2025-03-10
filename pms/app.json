@@ -15,5 +15,10 @@
       "lastName": "Tran",
       "username": ""
     }
-  ]
+  ],
+  "orderManagement": {
+        "copyLink": {
+            "defaultGroup": "food"
+        }
+    }
 }
