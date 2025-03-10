@@ -20,7 +20,7 @@
         "copyLink": {
             "defaultGroup": "food",
             "defaultMenuApp": "REACT_APP_MENU_WEB_APP",
-            "menuAppMappings": [{"app": "REACT_APP_MENU_VI_WEB_APP", "pattern": "/vi[a-z]+/"}]
+            "menuAppMappings": [{"app": "REACT_APP_MENU_VI_WEB_APP", "pattern": "vi[a-z]+"}]
         }
     }
 }
