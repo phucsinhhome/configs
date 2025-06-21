@@ -7,13 +7,15 @@
       "id": "1351151927",
       "firstName": "Minh",
       "lastName": "Tran",
-      "username": "minhtranes"
+      "username": "minhtranes",
+      "email": "minhtranes@gmail.com"
     },
     {
       "id": "6456500785",
       "firstName": "Kha",
       "lastName": "Tran",
-      "username": ""
+      "username": "",
+      "email": "tranhoangtruongkha@gmail.com"
     }
   ],
   "orderManagement": {
