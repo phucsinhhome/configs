@@ -35,7 +35,7 @@
       {
         "id": "creditCard",
         "name": "Credit Card",
-        "feeRate": 0.025,
+        "feeRate": 0.031,
         "template": "invoice_with_transfer_fee",
         "srcLargeImg": "/mastercard.svg",
         "paymentInfo": "/payment/creditcard.jpeg",
@@ -62,7 +62,7 @@
       {
         "id": "paypal",
         "name": "Paypal",
-        "feeRate": 0.025,
+        "feeRate": 0.031,
         "template": "invoice_without_transfer_fee",
         "srcLargeImg": "/paypal.svg",
         "paymentInfo": "/payment/paypal.png",
