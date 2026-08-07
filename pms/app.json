@@ -74,7 +74,7 @@
         "feeRate": 0.0,
         "template": "invoice_without_transfer_fee",
         "srcLargeImg": "/bank.svg",
-        "paymentInfo": "https://phucsinhhome.hopto.org/os/ps-dc-pub/payment/bankTransfer.jpg",
+        "paymentInfo": "https://phucsinhhome.hopto.org/os/ps-dc-pub/payment/bankTransfer_agribank.jpg",
         "defaultIssuerId": "minhtran"
       }
     ]
