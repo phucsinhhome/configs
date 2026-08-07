@@ -38,7 +38,7 @@
         "feeRate": 0.031,
         "template": "invoice_with_transfer_fee",
         "srcLargeImg": "/mastercard.svg",
-        "paymentInfo": "/payment/creditcard.jpeg",
+        "paymentInfo": "https://phucsinhhome.hopto.org/os/ps-dc-pub/payment/creditcard.jpeg",
         "defaultIssuerId": "minhtran"
       },
       {
@@ -47,7 +47,7 @@
         "feeRate": 0,
         "template": "invoice_without_transfer_fee",
         "srcLargeImg": "/cash.svg",
-        "paymentInfo": "/payment/cash.jpeg",
+        "paymentInfo": "https://phucsinhhome.hopto.org/os/ps-dc-pub/payment/cash.jpeg",
         "defaultIssuerId": "khatran"
       },
       {
@@ -56,7 +56,7 @@
         "feeRate": 0,
         "template": "invoice_without_transfer_fee",
         "srcLargeImg": "/momo-square.png",
-        "paymentInfo": "/payment/mono.jpg",
+        "paymentInfo": "https://phucsinhhome.hopto.org/os/ps-dc-pub/payment/mono.jpg",
         "defaultIssuerId": "minhtran"
       },
       {
@@ -65,7 +65,7 @@
         "feeRate": 0.031,
         "template": "invoice_without_transfer_fee",
         "srcLargeImg": "/paypal.svg",
-        "paymentInfo": "/payment/paypal.png",
+        "paymentInfo": "https://phucsinhhome.hopto.org/os/ps-dc-pub/payment/paypal.png",
         "defaultIssuerId": "minhtran"
       },
       {
@@ -74,7 +74,7 @@
         "feeRate": 0.0,
         "template": "invoice_without_transfer_fee",
         "srcLargeImg": "/bank.svg",
-        "paymentInfo": "/payment/bankTransfer.jpg",
+        "paymentInfo": "https://phucsinhhome.hopto.org/os/ps-dc-pub/payment/bankTransfer.jpg",
         "defaultIssuerId": "minhtran"
       }
     ]
